@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<PrivateOptionsAPIRequest>
+    <PlansForIndividualOrFamilyRequest>
+        <Enrollees>
+            <Primary>
+                <DateOfBirth>#YEAR#-01-01</DateOfBirth>
+                <Gender>#GENDER#</Gender>
+                <TobaccoUser>#TOBACCO#</TobaccoUser>
+            </Primary>
+        </Enrollees>
+        <Location>
+            <ZipCode>#ZIP#</ZipCode>
+            <County>
+                <CountyName>#COUNTRY#</CountyName>
+                <StateCode>#STATE#</StateCode>
+            </County>
+        </Location>
+        <InsuranceEffectiveDate>2014-11-01</InsuranceEffectiveDate>
+    <IsFilterAnalysisRequiredIndicator>false</IsFilterAnalysisRequiredIndicator>
+    <PaginationInformation>
+        <PageNumber>#PAGE#</PageNumber>
+        <PageSize>100</PageSize>
+    </PaginationInformation>
+    <SortOrder>
+        <SortField>OOP LIMIT - INDIVIDUAL - IN NETWORK</SortField>
+        <SortDirection>ASC</SortDirection>
+    </SortOrder>
+    <Filter/>
+    </PlansForIndividualOrFamilyRequest>
+</PrivateOptionsAPIRequest>
